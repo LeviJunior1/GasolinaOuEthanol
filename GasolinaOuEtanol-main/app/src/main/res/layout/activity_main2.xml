@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        />
+
+</LinearLayout>

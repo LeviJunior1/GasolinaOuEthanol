@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gasolina ou Etanol?</string>
+
+    <string name="question_info">Informe o preço do etanol e gasolina para comparar</string>
+    <string name="hidden_sugestion_gas">Coloque o valor da Gasolina</string>
+    <string name="hidden_sugestion_ethanol">Coloque o valor da Etanol</string>
+    <string name="compare">Comparar</string>
+    <string name="result">Resultado</string>
+    <string name="error_field">Por favor Complete Os Campos Acima!</string>
+    <string name="refresh">Remover</string>
+    <string name="refresh_msg">Os campos foram limpos!</string>
+</resources>
